@@ -1,5 +1,5 @@
 # Detection-of-place-names-in-historical-travel-writings
-We manually annotated a corpus of 100,000 tokens taken from a collection of English travel writings (both travel reports and guidebooks) about Italy published in the second half of the XIX century and the ’30s of the XX century. The corpus is annotated in IOB format using the tag LOCATION to mark all named entities (including nicknames) referring to: (i) geographical locations; (ii) political locations; (iii) functional locations.
+We manually annotated a corpus of 100,000 tokens taken from a collection of English travel writings (both travel reports and guidebooks) about Italy published in the second half of the XIX century and the ’30s of the XX century. The corpus is annotated in BIO format using the tag LOCATION to mark all named entities (including nicknames) referring to: (i) geographical locations; (ii) political locations; (iii) functional locations.
 
 The corpus has been used to retrain the Stanford NER module (https://stanfordnlp.github.io/CoreNLP/ner.html) and to train new models using the neural architecture proposed by Reimers and Gurevych (https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf) tested with several pre-trained word embeddings.
 
